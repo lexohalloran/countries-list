@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:aazvle3uiek6j1.chcha2aohzwu.us-east-2.rds.amazonaws.com}:${DB_PORT:5432}/${DB_INSTANCE:postgres}
+    username: postgres
+    password: ${DB_PW:Ar47Er47}
